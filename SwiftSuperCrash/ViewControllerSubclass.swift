@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewControllerSubclass.swift
 //  SwiftSuperCrash
 //
 //  Created by Nathan Broadbent on 12/10/14.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewControllerSubclass: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("Do some initial view setup")
+        println("Do some more view setup")
     }
 }

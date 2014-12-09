@@ -13,6 +13,7 @@
 		203F45A81A37B496004F7231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A71A37B496004F7231 /* Images.xcassets */; };
 		203F45AB1A37B496004F7231 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A91A37B496004F7231 /* LaunchScreen.xib */; };
 		203F45B71A37B496004F7231 /* SwiftSuperCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */; };
+		203F45C11A37B4A5004F7231 /* ViewControllerSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		203F45B01A37B496004F7231 /* SwiftSuperCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSuperCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203F45B51A37B496004F7231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSuperCrashTests.swift; sourceTree = "<group>"; };
+		203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSubclass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				203F45A01A37B496004F7231 /* AppDelegate.swift */,
 				203F45A21A37B496004F7231 /* ViewController.swift */,
+				203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */,
 				203F45A41A37B496004F7231 /* Main.storyboard */,
 				203F45A71A37B496004F7231 /* Images.xcassets */,
 				203F45A91A37B496004F7231 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				203F45A31A37B496004F7231 /* ViewController.swift in Sources */,
 				203F45A11A37B496004F7231 /* AppDelegate.swift in Sources */,
+				203F45C11A37B4A5004F7231 /* ViewControllerSubclass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
