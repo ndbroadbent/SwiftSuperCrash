@@ -11,6 +11,12 @@ import UIKit
 class ViewControllerSubclass: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("Do some more view setup")
+
+        let label = UILabel()
+        label.numberOfLines = 0
+        label.textColor = UIColor.whiteColor()
+        label.text = "Added a label from ViewControllerSubclass"
+        label.frame = CGRect(x: 0, y: 100, width: view.frame.width, height: 50)
+        view.addSubview(label)
     }
 }

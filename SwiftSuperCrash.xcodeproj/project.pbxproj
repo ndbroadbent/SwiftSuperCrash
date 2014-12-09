@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		203F45A11A37B496004F7231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45A01A37B496004F7231 /* AppDelegate.swift */; };
 		203F45A31A37B496004F7231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45A21A37B496004F7231 /* ViewController.swift */; };
-		203F45A61A37B496004F7231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A41A37B496004F7231 /* Main.storyboard */; };
 		203F45A81A37B496004F7231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A71A37B496004F7231 /* Images.xcassets */; };
-		203F45AB1A37B496004F7231 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A91A37B496004F7231 /* LaunchScreen.xib */; };
 		203F45B71A37B496004F7231 /* SwiftSuperCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */; };
 		203F45C11A37B4A5004F7231 /* ViewControllerSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */; };
 /* End PBXBuildFile section */
@@ -31,9 +29,7 @@
 		203F459F1A37B496004F7231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203F45A01A37B496004F7231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		203F45A21A37B496004F7231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		203F45A51A37B496004F7231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		203F45A71A37B496004F7231 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		203F45AA1A37B496004F7231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		203F45B01A37B496004F7231 /* SwiftSuperCrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSuperCrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203F45B51A37B496004F7231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSuperCrashTests.swift; sourceTree = "<group>"; };
@@ -82,9 +78,7 @@
 				203F45A01A37B496004F7231 /* AppDelegate.swift */,
 				203F45A21A37B496004F7231 /* ViewController.swift */,
 				203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */,
-				203F45A41A37B496004F7231 /* Main.storyboard */,
 				203F45A71A37B496004F7231 /* Images.xcassets */,
-				203F45A91A37B496004F7231 /* LaunchScreen.xib */,
 				203F459E1A37B496004F7231 /* Supporting Files */,
 			);
 			path = SwiftSuperCrash;
@@ -195,8 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203F45A61A37B496004F7231 /* Main.storyboard in Resources */,
-				203F45AB1A37B496004F7231 /* LaunchScreen.xib in Resources */,
 				203F45A81A37B496004F7231 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,25 +230,6 @@
 			targetProxy = 203F45B11A37B496004F7231 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		203F45A41A37B496004F7231 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				203F45A51A37B496004F7231 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		203F45A91A37B496004F7231 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				203F45AA1A37B496004F7231 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		203F45B81A37B496004F7231 /* Debug */ = {
@@ -342,9 +315,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SwiftSuperCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,6 +330,7 @@
 				INFOPLIST_FILE = SwiftSuperCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8d6f867-4cfb-4f2b-a65f-069019601cff";
 			};
 			name = Release;
 		};
