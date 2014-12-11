@@ -6,7 +6,7 @@ An infinite loop caused by the NewRelicAgent CocoaPod
 
 ### Steps to reproduce:
 
-Note that this POC only works if you build a release, and install the ipa on your phone. I can't reproduce the crash if I set Build Configuration to Release and run on my phone.
+Note that this POC only seems to work if you export an ipa, and manually install it on your phone. I can't reproduce the crash if I set Build Configuration to Release and run on my phone.
 
  - Clone the repo
  - Copy Tokens.example.swift to Tokens.swift and set your new relic API token
