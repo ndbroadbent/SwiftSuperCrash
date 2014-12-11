@@ -13,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        NewRelic.startWithApplicationToken(NEW_RELIC_TOKEN)
+        
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let viewController = ViewControllerSubclass()
         window!.rootViewController = viewController

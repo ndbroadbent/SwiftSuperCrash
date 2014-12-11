@@ -12,6 +12,8 @@
 		203F45A81A37B496004F7231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203F45A71A37B496004F7231 /* Images.xcassets */; };
 		203F45B71A37B496004F7231 /* SwiftSuperCrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */; };
 		203F45C11A37B4A5004F7231 /* ViewControllerSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */; };
+		207A320B1A3A358000E5F6A1 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207A320A1A3A358000E5F6A1 /* Tokens.swift */; };
+		736764FBDAC8CA3CAA611C36 /* libPods-SwiftSuperCrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3008CB19440FE1F678CB14E /* libPods-SwiftSuperCrash.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,12 @@
 		203F45B51A37B496004F7231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203F45B61A37B496004F7231 /* SwiftSuperCrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSuperCrashTests.swift; sourceTree = "<group>"; };
 		203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSubclass.swift; sourceTree = "<group>"; };
+		207A32071A3A350100E5F6A1 /* SwiftSuperCrash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSuperCrash-Bridging-Header.h"; sourceTree = "<group>"; };
+		207A320A1A3A358000E5F6A1 /* Tokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		207A320C1A3A35B900E5F6A1 /* Tokens.example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokens.example.swift; sourceTree = "<group>"; };
+		312A1EEBE9103FE6552AEBE4 /* Pods-SwiftSuperCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSuperCrash.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSuperCrash/Pods-SwiftSuperCrash.release.xcconfig"; sourceTree = "<group>"; };
+		800AB3C00BFD6FB65695B0AF /* Pods-SwiftSuperCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSuperCrash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSuperCrash/Pods-SwiftSuperCrash.debug.xcconfig"; sourceTree = "<group>"; };
+		A3008CB19440FE1F678CB14E /* libPods-SwiftSuperCrash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftSuperCrash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736764FBDAC8CA3CAA611C36 /* libPods-SwiftSuperCrash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 				203F459D1A37B496004F7231 /* SwiftSuperCrash */,
 				203F45B31A37B496004F7231 /* SwiftSuperCrashTests */,
 				203F459C1A37B496004F7231 /* Products */,
+				C6FE4B68F0587D62196CE2EE /* Pods */,
+				DFEBBB80AEA8D297A607E4B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +86,9 @@
 		203F459D1A37B496004F7231 /* SwiftSuperCrash */ = {
 			isa = PBXGroup;
 			children = (
+				207A320C1A3A35B900E5F6A1 /* Tokens.example.swift */,
+				207A320A1A3A358000E5F6A1 /* Tokens.swift */,
+				207A32071A3A350100E5F6A1 /* SwiftSuperCrash-Bridging-Header.h */,
 				203F45A01A37B496004F7231 /* AppDelegate.swift */,
 				203F45A21A37B496004F7231 /* ViewController.swift */,
 				203F45C01A37B4A5004F7231 /* ViewControllerSubclass.swift */,
@@ -109,6 +123,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6FE4B68F0587D62196CE2EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800AB3C00BFD6FB65695B0AF /* Pods-SwiftSuperCrash.debug.xcconfig */,
+				312A1EEBE9103FE6552AEBE4 /* Pods-SwiftSuperCrash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFEBBB80AEA8D297A607E4B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3008CB19440FE1F678CB14E /* libPods-SwiftSuperCrash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 203F45BA1A37B496004F7231 /* Build configuration list for PBXNativeTarget "SwiftSuperCrash" */;
 			buildPhases = (
+				0AF3993219CC6C28FBDA6081 /* Check Pods Manifest.lock */,
 				203F45971A37B496004F7231 /* Sources */,
 				203F45981A37B496004F7231 /* Frameworks */,
 				203F45991A37B496004F7231 /* Resources */,
+				7A34CECDEF74A4E64E3CB2BE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,12 +235,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF3993219CC6C28FBDA6081 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A34CECDEF74A4E64E3CB2BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftSuperCrash/Pods-SwiftSuperCrash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		203F45971A37B496004F7231 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				203F45A31A37B496004F7231 /* ViewController.swift in Sources */,
+				207A320B1A3A358000E5F6A1 /* Tokens.swift in Sources */,
 				203F45A11A37B496004F7231 /* AppDelegate.swift in Sources */,
 				203F45C11A37B4A5004F7231 /* ViewControllerSubclass.swift in Sources */,
 			);
@@ -313,24 +380,31 @@
 		};
 		203F45BB1A37B496004F7231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800AB3C00BFD6FB65695B0AF /* Pods-SwiftSuperCrash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = SwiftSuperCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSuperCrash/SwiftSuperCrash-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		203F45BC1A37B496004F7231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312A1EEBE9103FE6552AEBE4 /* Pods-SwiftSuperCrash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftSuperCrash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a8d6f867-4cfb-4f2b-a65f-069019601cff";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSuperCrash/SwiftSuperCrash-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -387,6 +461,7 @@
 				203F45BC1A37B496004F7231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		203F45BD1A37B496004F7231 /* Build configuration list for PBXNativeTarget "SwiftSuperCrashTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +470,7 @@
 				203F45BF1A37B496004F7231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

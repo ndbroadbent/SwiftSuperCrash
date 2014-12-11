@@ -1,0 +1,10 @@
+PODS:
+  - NewRelicAgent (4.139)
+
+DEPENDENCIES:
+  - NewRelicAgent
+
+SPEC CHECKSUMS:
+  NewRelicAgent: fe89ea76bcbbe3d45c3adea698f9d786ea6e21ae
+
+COCOAPODS: 0.35.0

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>725C9CC9-0477-4ECF-B3F9-5E2FBF829189</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftSuperCrash</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CBF02D349AC64B3D937692419A1FD93E111F80D3</key>
+		<string>github.com:ndbroadbent/SwiftSuperCrash.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftSuperCrash.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CBF02D349AC64B3D937692419A1FD93E111F80D3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ndbroadbent/SwiftSuperCrash.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CBF02D349AC64B3D937692419A1FD93E111F80D3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CBF02D349AC64B3D937692419A1FD93E111F80D3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftSuperCrash</string>
+		</dict>
+	</array>
+</dict>
+</plist>
